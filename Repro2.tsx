@@ -8,7 +8,7 @@ const Item = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    //Remove any styles on Animated View to fix performance
+    //Remove any styles on Animated View to fix performance (or remove unistyles babel plugin)
     <Animated.View style={{}}>
       <Pressable
         onPress={() => {
